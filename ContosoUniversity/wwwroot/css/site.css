@@ -1,5 +1,31 @@
 /* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification 
 for details on configuring this project to bundle and minify static web assets. */
+
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville|Source+Serif+Pro');
+
+h1, h2 {
+    
+    font-family: 'Source Serif Pro', serif;
+}
+
+.jumbotron h1 {
+    color: #312219;
+}
+
+.jumbotron {
+    background-image: url("../images/campus.jpg");
+    background-repeat: no-repeat;
+    background-size: 760px 300px;
+}
+
+a:hover {
+    color: #F87E60;
+}
+
+a:link {
+    color: #F87E60;
+}
+
 body {
     padding-top: 50px;
     padding-bottom: 20px;
